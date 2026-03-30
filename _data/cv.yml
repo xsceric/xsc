@@ -1,10 +1,10 @@
 cv:
   name: Sichen Xia
-  label: Researcher in Oral Epidemiology
+  label: Student & Researcher
   email: xsceric@outlook.com
   location: Nanjing, China
   image: "xsc_photo.jpg"
-  summary: I am currently affiliated with the Stomatological College of Nanjing Medical University. My research and clinical interests primarily focus on Oral Epidemiology.
+  summary: Medical student at Nanjing Medical University, currently focused on research within the field of Oral Epidemiology.
 
   social_networks:
     - network: ORCID
@@ -38,25 +38,17 @@ cv:
       - institution: Nanjing Medical University
         location: Nanjing, China
         url: https://www.njmu.edu.cn/
-        area: Stomatology / Oral Epidemiology
+        area: Stomatology
         studyType: Student
         start_date: 2023
         end_date: Present
         highlights:
-          - Focus on Oral Epidemiology research.
-          - Clinical training at the Stomatological College.
-
-    Experience:
-      - company: Stomatological College of Nanjing Medical University
-        position: Researcher / Clinician
-        location: Nanjing, China
-        start_date: 2023
-        end_date: Present
-        summary: Engaging in clinical practice and epidemiological research related to oral health.
+          - Research focus: **Oral Epidemiology**.
+          - Clinical training at the **Affiliated Stomatological Hospital**.
 
     Awards:
       - title: Academic Scholarship
-        date: 2024
+        date: 2025
         awarder: Nanjing Medical University
         summary: Awarded for outstanding academic performance.
 
@@ -67,17 +59,17 @@ cv:
         authors:
           - Sichen Xia
         publisher: Journal Name
-        releaseDate: 2024
+        releaseDate: 2025
         url: ""
         summary: Brief description of your key findings.
 
     Skills:
       - name: Research
-        level: Advanced
+        level: Primary
         icon: fa-solid fa-microscope
         keywords: "Oral Epidemiology, Biostatistics, Clinical Research"
       - name: Clinical
-        level: Intermediate
+        level: Medical student
         icon: fa-solid fa-tooth
         keywords: "Stomatology, Patient Care"
 
@@ -85,7 +77,7 @@ cv:
       - name: Chinese
         summary: "Native speaker"
       - name: English
-        summary: "Fluent / Academic Proficiency"
+        summary: "Fluent"
 
     Interests:
       - name: Oral Epidemiology
