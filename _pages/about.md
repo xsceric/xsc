@@ -28,7 +28,7 @@ My research and clinical interests primarily focus on **Oral Epidemiology**.
 
 ### Find Me On
 [**ORCID**](https://orcid.org/0009-0001-4328-554X)
-[**Google Scholar**](https://scholar.google.com/citations?user=k4BFMIgAAAAJ&hl=en)
+[**Google Scholar**](https://scholar.google.com/citations?user=k4BFMIgAAAAJ)
 [**Web of Science**](https://www.webofscience.com/wos/author/record/LWK-5922-2024)
 [**ResearchGate**](https://www.researchgate.net/profile/Sichen-Xia-2)
 [**Scopus**](https://www.scopus.com/authid/detail.uri?authorId=60122879000)
