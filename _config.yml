@@ -678,3 +678,20 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+# -----------------------------------------------------------------------------
+# Social Integration (补全缺失的图标逻辑)
+# -----------------------------------------------------------------------------
+
+social_icons_colored: true  # 开启彩色图标，一眼就能看出是否生效
+social_icons_navbar: true   # 让图标也出现在顶部导航栏
+
+# 显式告诉模板要检查哪些 ID
+# 如果你在上面填了这些 ID，它们就会自动出现在底部
+display_social_icons: [email, orcid_id, scholar_userid, wos_id, research_gate_profile, scopus_id, github_username]
+
+# -----------------------------------------------------------------------------
+# 彻底清理爱因斯坦的“残余”
+# -----------------------------------------------------------------------------
+google_scholar_userid: "" # 强制清空可能存在的默认 ID
