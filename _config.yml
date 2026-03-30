@@ -2,27 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Eric's Homepage # 网站的标题
+title: Sichen Xia # 建议把英文名括起来，或者直接写 Sichen Xia's Homepage
 first_name: Sichen       # 你的名字
-middle_name:           # 中间名（没有就空着）
-last_name: Xia         # 你的姓氏（可以自己改成真实的姓氏）
+middle_name:             # 留空即可
+last_name: Xia           # 你的姓氏
 contact_note: >
-  欢迎来到我的主页！这是与我联系的最佳方式。
-description: > # 网站的简短描述（会影响搜索引擎的收录）
-  Eric的个人学术与项目主页。 A simple, whitespace theme for academics.
+  Feel free to reach out to me via email or connect on social media!
+description: > # 换成专业的学术自我介绍
+  Personal academic website of Sichen Xia.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website, portfolio, research # 搜索关键词
-lang: en # 如果你想做纯中文网站，可以改成 zh-CN；如果全英文或中英混排，保留 en 即可
-icon: 🎓 # 网页标签页上的小图标，我帮你换成了一个学术帽，你也可以换成其他的 Emoji
+keywords: Sichen Xia, academic-website, Nanjing Medical University
+lang: en # 保持英文
+icon: 🎓 # 学术帽很棒，保持不变
 
-url: https://xsceric.github.io # 【最重要的一步】你的个人域名
-baseurl: /xsc # 【最重要的一步】你的仓库名。注意斜杠不能漏！
-last_updated: true # 帮你开启了“在页脚显示最后更新时间”
+url: https://xsceric.github.io # 保持不变
+baseurl: /xsc # 保持不变
+last_updated: true 
 impressum_path: 
-back_to_top: true # 开启“回到顶部”按钮
-
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
