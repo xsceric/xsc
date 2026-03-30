@@ -2,27 +2,27 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Eric's Homepage # 网站的标题
+first_name: Sichen       # 你的名字
+middle_name:           # 中间名（没有就空着）
+last_name: Xia         # 你的姓氏（可以自己改成真实的姓氏）
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  欢迎来到我的主页！这是与我联系的最佳方式。
+description: > # 网站的简短描述（会影响搜索引擎的收录）
+  Eric的个人学术与项目主页。 A simple, whitespace theme for academics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: academic-website, portfolio, research # 搜索关键词
+lang: en # 如果你想做纯中文网站，可以改成 zh-CN；如果全英文或中英混排，保留 en 即可
+icon: 🎓 # 网页标签页上的小图标，我帮你换成了一个学术帽，你也可以换成其他的 Emoji
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: https://xsceric.github.io # 【最重要的一步】你的个人域名
+baseurl: /xsc # 【最重要的一步】你的仓库名。注意斜杠不能漏！
+last_updated: true # 帮你开启了“在页脚显示最后更新时间”
+impressum_path: 
+back_to_top: true # 开启“回到顶部”按钮
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -91,7 +91,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Eric's Blog # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
