@@ -36,3 +36,19 @@ My research and clinical interests primarily focus on **Oral Epidemiology**.
 
 Please feel free to reach out to me via email at [xsceric@outlook.com](mailto:xsceric@outlook.com) or [xsceric@stu.njmu.edu.cn](mailto:xsceric@stu.njmu.edu.cn). I am always open to discussions and collaborations!
 
+
+<script src="https://giscus.app/client.js"
+        data-repo="xsceric/xsc"
+        data-repo-id="R_kgDOR0rUfA"
+        data-category="General"
+        data-category-id="DIC_kwDOR0rUfM4C5nPo"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
