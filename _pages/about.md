@@ -9,7 +9,7 @@ profile:
   image: xsc_photo.jpg
   image_circular: true
   more_info: >
-    <p>Tel: +86 13506155217</p>
+    <p> 
     <p>xsceric@outlook.com</p>
     <p>xsceric@stu.njmu.edu.cn</p>
     <p>Nanjing, 211166, PR China</p>
