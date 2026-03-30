@@ -14,10 +14,6 @@ profile:
     <p>Nanjing, 211166, PR China</p>
 selected_papers: false
 social: true
-announcements:
-  enabled: false
-latest_posts:
-  enabled: false
 ---
 
 Hi there! 👋 Welcome to my personal homepage. 
