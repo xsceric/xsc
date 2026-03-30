@@ -6,17 +6,11 @@
 cv_pdf: /assets/pdf/resume.pdf 
 
 email: xsceric@outlook.com
-github_username: xsceric
 orcid_id: 0009-0001-4328-554X
+scholar_userid: k4BFMIgAAAAJ
+wos_id: LWK-5922-2024
 research_gate_profile: Sichen-Xia-2
 scopus_id: 60122879000
-wos_id: LWK-5922-2024
-
-# 再次提醒：k4BFMIgAAAAJ 是爱因斯坦的 ID，
-# 当你有了自己的 Google Scholar 后，请务必回来替换掉这一行
-scholar_userid: k4BFMIgAAAAJ 
+github_username: xsceric
 
 rss_icon: true # 保持开启，方便别人订阅你的动态
-
-# 已删除爱因斯坦的 custom_social (Custom Logo/Link)
-# 如果以后你有自己的个人实验室或特定的学术组织链接，可以再按需添加
