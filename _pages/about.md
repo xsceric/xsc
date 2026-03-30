@@ -2,19 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.njmu.edu.cn/">Stomatological College of Nanjing Medical University</a>.
+subtitle: "<a href='https://www.njmu.edu.cn/'>Stomatological College of Nanjing Medical University</a>."
 
 profile:
   align: right
   image: xsc_photo.jpg
   image_circular: true
   more_info: >
-    <p><i class="fa-solid fa-phone"></i> +86 13506155217</p>
-    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:xsceric@outlook.com">xsceric@outlook.com</a></p>
-    <p><i class="fa-solid fa-location-dot"></i> Nanjing, 211166, PR China</p>
+    <p>Tel: +86 13506155217</p>
+    <p>xsceric@outlook.com</p>
+    <p>xsceric@stu.njmu.edu.cn</p>
+    <p>Nanjing, 211166, PR China</p>
 
-selected_papers: true # 确保这里为 true，主页才会显示你刚传的论文
+selected_papers: true
 social: false
+
 ---
 
 ## Biography
