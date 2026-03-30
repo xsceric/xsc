@@ -1,17 +1,27 @@
-"basics": {
+{
+  "basics": {
     "name": "Sichen Xia",
-    "label": "Medical Researcher / Student",
+    "label": "Medical Researcher",
     "image": "",
     "email": "xsceric@outlook.com",
     "phone": "+86 13506155217",
     "url": "https://xsceric.github.io/xsc/",
-    "summary": "Currently affiliated with the Stomatological College of Nanjing Medical University...",
+    "summary": "Affiliated with Stomatological College of Nanjing Medical University.",
     "location": {
-      "address": "Stomatological College of Nanjing Medical University",
-      "postalCode": "211166",
       "city": "Nanjing",
-      "countryCode": "PR China",
-      "region": "Jiangsu"
+      "countryCode": "CN"
     },
     "profiles": []
   },
+  "work": [],
+  "education": [],
+  "publications": [],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
