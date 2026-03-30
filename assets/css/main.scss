@@ -38,8 +38,38 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+
+/* =============================================================================
+   Publications 页面深度美化（整合版）
+   ============================================================================= */
+
+/* 1. 窄化左侧缩写方块 (abbr) 并设置圆角 */
+.abbr {
+  flex: 0 0 70px !important;      /* 宽度从默认缩减到 70px，可根据喜好微调 */
+  max-width: 70px !important;
+  min-width: 70px !important;
+  border-radius: 5px !important;  /* 圆角 */
+  padding: 2px !important;       /* 内部留白缩减 */
+  margin-top: 5px !important;
+  height: fit-content !important;
+}
+
+/* 2. 缩减方块文字大小，确保在窄框里不换行 */
+.abbr abbr {
+  font-size: 0.7rem !important;
+  letter-spacing: 0px !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* 3. 修复期刊名称颜色：深色可见 + 斜体 */
 .periodical {
-  color: #333333 !important; /* 强制设为深灰色/黑色 */
+  color: #333333 !important; 
   font-style: italic !important;
-  opacity: 1 !important; /* 确保没有透明度干扰 */
+  opacity: 1 !important;
+}
+
+/* 4. 彻底隐藏 BIB 按钮 */
+.bibtex.btn {
+  display: none !important;
 }
