@@ -37,3 +37,9 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+.periodical {
+  color: #333333 !important; /* 强制设为深灰色/黑色 */
+  font-style: italic !important;
+  opacity: 1 !important; /* 确保没有透明度干扰 */
+}
