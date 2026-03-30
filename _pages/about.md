@@ -33,6 +33,16 @@ My research and clinical interests primarily focus on **Oral Epidemiology**.
 * [**ResearchGate**](https://www.researchgate.net/profile/Sichen-Xia-2)
 * [**Scopus**](https://www.scopus.com/authid/detail.uri?authorId=60122879000)
 
+
+### <i class="fa-solid fa-folder-open"></i> Resources & Data
+You can access my shared research datasets and supplementary materials via the link below:
+
+<a href="https://drive.google.com/drive/folders/1Y51kwYZCFbkVxEyKXWlc0_3hylOvhsdp?usp=share_link" class="btn btn-sm z-depth-1" role="button" target="_blank" style="color: white; background-color: #4285F4;">
+  <i class="fa-brands fa-google-drive"></i> Access my Google Drive
+</a>
+
 ---
 
 Please feel free to reach out to me via email at [xsceric@outlook.com](mailto:xsceric@outlook.com) or [xsceric@stu.njmu.edu.cn](mailto:xsceric@stu.njmu.edu.cn). I am always open to discussions and collaborations!
+
+
