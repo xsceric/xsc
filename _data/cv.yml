@@ -25,17 +25,6 @@ cv:
     - network: GitHub
       username: xsceric
       url: https://github.com/xsceric
-      
-    
-    social_networks:
-    - network: GitHub
-      username: xsceric
-    - network: ORCID
-      username: 0009-0001-4328-554X
-    - network: ResearchGate
-      username: Sichen-Xia-2
-    - network: Scopus
-      username: 60122879000
 
   address:
     street: 140 Hanzhong Road
