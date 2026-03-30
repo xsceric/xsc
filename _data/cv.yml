@@ -43,9 +43,9 @@ cv:
         start_date: 2023
         end_date: Present
         highlights:
-          - Research focus: **Oral Epidemiology**.
-          - Clinical training at the **Affiliated Stomatological Hospital**.
-
+          - "Research focus: **Oral Epidemiology**."
+          - "Clinical training at the **Affiliated Stomatological Hospital**."
+          
     Awards:
       - title: Academic Scholarship
         date: 2025
