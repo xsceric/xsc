@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Stomatological College of Nanjing Medical University.
-
 profile:
   align: right
   image: xsc_photo.jpg
@@ -13,10 +12,12 @@ profile:
     <p>xsceric@outlook.com</p>
     <p>xsceric@stu.njmu.edu.cn</p>
     <p>Nanjing, 211166, PR China</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: false
+social: true
+announcements:
+  enabled: false
+latest_posts:
+  enabled: false
 ---
 
 Hi there! 👋 Welcome to my personal homepage. 
@@ -26,20 +27,3 @@ I am Sichen Xia, currently affiliated with the **Stomatological College of Nanji
 My research and clinical interests primarily focus on **Oral Epidemiology**. 
 
 Please feel free to reach out to me via email at [xsceric@outlook.com](mailto:xsceric@outlook.com) or [xsceric@stu.njmu.edu.cn](mailto:xsceric@stu.njmu.edu.cn). I am always open to discussions and collaborations!
-
-
-<script src="https://giscus.app/client.js"
-        data-repo="xsceric/xsc"
-        data-repo-id="R_kgDOR0rUfA"
-        data-category="General"
-        data-category-id="DIC_kwDOR0rUfM4C5nPo"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
