@@ -94,14 +94,32 @@
   display: block;
 }
 
-/* 2. 优化头像下方的联系文字 (Tel/Email/Address) 样式，让它更精致 */
-.profile-contact,
-.profile-social {
-  text-align: center;        /* 文字也居中对齐，看起来更整齐 */
-  font-size: 0.8rem !important; /* 稍微调小一点字号，防止尴尬换行 */
-  margin-top: 10px !important; /* 拉开头像和文字的距离 */
+/* =============================================================================
+   主页头像联系方式 (字体放大 + 完美居中)
+   ============================================================================= */
+
+/* 1. 外层容器居中 */
+.profile .address {
+  text-align: center !important;   /* 让内部的内容整体居中 */
+  margin-top: 15px !important;     /* 距离上面的分割线或头像拉开一点距离 */
 }
 
+/* 2. 文字块内部设置 */
+.profile .address p {
+  display: inline-block !important; /* 核心魔法：让文字块收缩到实际宽度，配合外层居中 */
+  text-align: left !important;      /* 保持内部文字左对齐，确保左侧的图标能排成一条直线！ */
+  font-family: "Times New Roman", Times, serif !important; /* 保持经典学术字体 */
+  font-size: 0.95rem !important;    /* 字体调大 (从默认的 0.8 调到了 0.95，非常清晰) */
+  line-height: 1.8 !important;      /* 稍微拉开一点行距，不拥挤 */
+  margin: 0 !important;
+}
+
+/* 3. 图标微调，防止挨得太紧 */
+.profile .address p i {
+  width: 20px;                      /* 给图标固定一个宽度，让后面的文字对齐得更完美 */
+  text-align: center;
+  margin-right: 8px;                /* 图标和文字的间距 */
+}
 
 /* =============================================================================
    仅将头像下方的联系方式 (邮箱、地址) 修改为 Times New Roman
