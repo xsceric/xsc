@@ -8,9 +8,7 @@ middle_name:             # 留空即可
 last_name: Xia           # 你的姓氏
 description: > # 换成专业的学术自我介绍
   Personal academic website of Sichen Xia.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: ""
 keywords: Sichen Xia, academic-website, Nanjing Medical University
 lang: en # 保持英文
 icon: 🎓 # 学术帽很棒，保持不变
