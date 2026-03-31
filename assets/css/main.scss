@@ -66,7 +66,7 @@
 .bibliography > li > .row > div:not(.abbr) {
   flex: 0 0 100% !important;      
   max-width: 100% !important;
-  padding-left: 0px !important;   /* 既然掉到下一行了，就不需要左边距了，直接改成 0px 对齐 */
+  padding-left: 10px !important;   /* 左边距10px */
   text-align: left;
 }
 
