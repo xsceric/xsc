@@ -10,9 +10,9 @@ profile:
   image_circular: true
   more_info: >
     <p>
-      xsceric@outlook.com<br>
-      xsceric@stu.njmu.edu.cn<br>
-      Nanjing, 211166, PR China
+      <i class="fa-solid fa-envelope"></i> xsceric@outlook.com<br>
+      <i class="fa-solid fa-graduation-cap"></i> xsceric@stu.njmu.edu.cn<br>
+      <i class="fa-solid fa-location-dot"></i> Nanjing, 211166, PR China
     </p>
 
 selected_papers: true
