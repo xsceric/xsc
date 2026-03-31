@@ -102,20 +102,11 @@
   margin-top: 10px !important; /* 拉开头像和文字的距离 */
 }
 
-
 /* =============================================================================
-   全局字体设置：Times New Roman (经典学术风)
+   仅将头像下方的联系方式 (邮箱、地址) 修改为 Times New Roman
    ============================================================================= */
 
-body, 
-h1, h2, h3, h4, h5, h6, 
-p, a, li, span, div, 
-.navbar-brand, .nav-link,
-table, th, td {
+.profile .more-info,
+.profile .more-info p {
   font-family: "Times New Roman", Times, serif !important;
-}
-
-/* 确保代码块或终端文字保持等宽字体，不被覆盖（防止代码排版错乱） */
-code, pre, kbd, samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
