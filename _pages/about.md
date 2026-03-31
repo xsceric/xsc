@@ -9,10 +9,11 @@ profile:
   image: xsc_photo.jpg
   image_circular: true
   more_info: >
-    <p> 
-    <p>xsceric@outlook.com</p>
-    <p>xsceric@stu.njmu.edu.cn</p>
-    <p>Nanjing, 211166, PR China</p>
+    <p>
+      xsceric@outlook.com<br>
+      xsceric@stu.njmu.edu.cn<br>
+      Nanjing, 211166, PR China
+    </p>
 
 selected_papers: true
 social: false
