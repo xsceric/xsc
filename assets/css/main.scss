@@ -108,8 +108,8 @@
 .profile .address p {
   display: inline-block !important; /* 核心魔法：让文字块收缩到实际宽度，配合外层居中 */
   text-align: left !important;      /* 保持内部文字左对齐，确保左侧的图标能排成一条直线！ */
-  font-family: "Times New Roman", Times, serif !important; /* 保持经典学术字体 */
-  font-size: 0.95rem !important;    /* 字体调大 (从默认的 0.8 调到了 0.95，非常清晰) */
+  font-family: "Arial", serif !important; /* 保持经典学术字体 */
+  font-size: 0.9rem !important;    /* 字体调大 (从默认的 0.8 调到了 0.95，非常清晰) */
   line-height: 1.8 !important;      /* 稍微拉开一点行距，不拥挤 */
   margin: 0 !important;
 }
@@ -119,14 +119,4 @@
   width: 20px;                      /* 给图标固定一个宽度，让后面的文字对齐得更完美 */
   text-align: center;
   margin-right: 8px;                /* 图标和文字的间距 */
-}
-
-/* =============================================================================
-   仅将头像下方的联系方式 (邮箱、地址) 修改为 Times New Roman
-   ============================================================================= */
-
-.profile .address,
-.profile .address p,
-.profile .contact p {        /* 【修正】使用了精准的底层类名 */
-  font-family: "Times New Roman", Times, serif !important;
 }
