@@ -43,27 +43,30 @@
    Publications 页面美化（左侧留白 + 比例优化）
    ============================================================================= */
 
-/* 1. 让整行内容往右移一点，不再贴边 */
+/* 1. 允许容器换行 (非常关键！为了配合下面的 100% 宽度) */
 .bibliography > li > .row {
-  padding-left: 20px !important;  /* 这个数值控制方块距离左边缘多远，你可以根据喜好调成 20px 或 40px */
+  display: flex !important;
+  flex-wrap: wrap !important;     /* 必须加这行，才能让标题顺滑地掉到下一行！ */
+  padding-left: 20px !important;  
 }
 
 /* 2. 窄化左侧缩写方块 (abbr) */
 .abbr {
-  flex: 0 0 75px !important;      /* 保持窄宽度 */
+  flex: 0 0 75px !important;      
   max-width: 75px !important;
   min-width: 75px !important;
   border-radius: 5px !important;
   padding: 2px !important;
   margin-top: 5px !important;
+  margin-bottom: 10px !important; /* 给下一行的标题留一点上下距离 */
   height: fit-content !important;
 }
 
-/* 3. 让右侧内容宽度适中，保持右侧呼吸感 */
+/* 3. 让右侧内容强制换行，并占满全宽 */
 .bibliography > li > .row > div:not(.abbr) {
-  flex: 0 0 100% !important; 
+  flex: 0 0 100% !important;      
   max-width: 100% !important;
-  padding-left: 25px !important;  /* 方块与文字之间的距离 */
+  padding-left: 0px !important;   /* 既然掉到下一行了，就不需要左边距了，直接改成 0px 对齐 */
   text-align: left;
 }
 
@@ -79,7 +82,6 @@
   display: none !important;
 }
 
-
 /* =============================================================================
    主页头像微调
    ============================================================================= */
@@ -94,29 +96,31 @@
   display: block;
 }
 
+
 /* =============================================================================
    主页头像联系方式 (字体放大 + 完美居中)
    ============================================================================= */
 
 /* 1. 外层容器居中 */
 .profile .address {
-  text-align: center !important;   /* 让内部的内容整体居中 */
-  margin-top: 15px !important;     /* 距离上面的分割线或头像拉开一点距离 */
+  text-align: center !important;   
+  margin-top: 15px !important;     
 }
 
 /* 2. 文字块内部设置 */
 .profile .address p {
-  display: inline-block !important; /* 核心魔法：让文字块收缩到实际宽度，配合外层居中 */
-  text-align: left !important;      /* 保持内部文字左对齐，确保左侧的图标能排成一条直线！ */
-  font-family: "Arial", serif !important; /* 保持经典学术字体 */
-  font-size: 0.9rem !important;    /* 字体调大 (从默认的 0.8 调到了 0.95，非常清晰) */
-  line-height: 1.8 !important;      /* 稍微拉开一点行距，不拥挤 */
+  display: inline-block !important; 
+  text-align: left !important;      
+  font-family: Arial, Helvetica, sans-serif !important; /* 修正为无衬线字体 */
+  font-size: 0.9rem !important;    /* 保持你的 0.9rem */
+  line-height: 1.8 !important;      
   margin: 0 !important;
 }
 
 /* 3. 图标微调，防止挨得太紧 */
 .profile .address p i {
-  width: 20px;                      /* 给图标固定一个宽度，让后面的文字对齐得更完美 */
+  width: 20px;                      
   text-align: center;
-  margin-right: 8px;                /* 图标和文字的间距 */
+  margin-right: 8px;                
 }
+
