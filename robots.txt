@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xsceric.github.io/xsc/sitemap.xml
+Sitemap: https://xsceric.com/sitemap.xml

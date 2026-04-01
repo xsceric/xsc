@@ -7,21 +7,21 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/xsc/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/xsc/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/xsc/cv/";
+            window.location.href = "/cv/";
           },
         },{
       id: 'light-theme',
