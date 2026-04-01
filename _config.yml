@@ -13,8 +13,11 @@ keywords: Sichen Xia, academic-website, Nanjing Medical University
 lang: en # 保持英文
 icon: 🎓 # 学术帽很棒，保持不变
 
-url: https://xsceric.github.io # 保持不变
-baseurl: /xsc # 保持不变
+url: "https://xsceric.com"
+baseurl: ""  # 注意：这里改成两个英文双引号，里面什么都不填，不要有空格
+
+# url: https://xsceric.github.io # 保持不变
+# baseurl: /xsc # 保持不变
 last_updated: true 
 impressum_path: 
 back_to_top: true
