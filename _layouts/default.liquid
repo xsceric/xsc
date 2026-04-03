@@ -15,6 +15,24 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+
+<script>
+  // 检查当前会话是否已经登录过
+  if (!sessionStorage.getItem("site_unlocked")) {
+    var my_password = "xsceric11"; 
+    var user_input = prompt("🔒 欢迎来到 xsceric.com！本站为私人学术主页，请输入访问密码：");
+    
+    if (user_input === my_password) {
+      // 密码正确，发一个“通行证”存入浏览器
+      sessionStorage.setItem("site_unlocked", "true");
+    } else {
+      // 密码错误，清空网页并拦截
+      document.write("<div style='text-align:center; margin-top:100px; font-family: Arial, sans-serif;'><h2>⛔ 密码错误，无权访问本站。</h2><p>请刷新页面重试。</p></div>");
+      window.stop(); 
+    }
+  }
+</script>
+
   </head>
 
   <!-- Body -->
