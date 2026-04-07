@@ -2,6 +2,25 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
+<script>
+  // 1. 定义你的全站访问密码
+  var SITE_PASSWORD = "xsceric11"; 
+
+  // 2. 检查当前会话（Session）是否已解锁
+  if (sessionStorage.getItem("site_access_unlocked") !== "true") {
+    var user_input = prompt("🔒 欢迎访问！本站内容受限，请输入访问密码：");
+
+    if (user_input === SITE_PASSWORD) {
+      // 密码正确，在当前会话中存入通行证
+      sessionStorage.setItem("site_access_unlocked", "true");
+    } else {
+      // 密码错误，清空页面并停止加载
+      alert("密码错误，无权访问。");
+      document.body.innerHTML = "<div style='text-align:center; margin-top:100px;'><h2>⛔ 访问受限</h2><p>请刷新页面并输入正确密码。</p></div>";
+      window.stop(); 
+    }
+  }
+</script>
 
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
     {% if page.redirect %}
